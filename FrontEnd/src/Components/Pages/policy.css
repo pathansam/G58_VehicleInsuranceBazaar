@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+/*===== Variable Define =====*/
+:root {
+    --primary-color: #9B5DE5; 
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+small,
+.span{
+    font-weight: 600;
+    font-size: 14px;
+   
+}  
+
+.heading{
+    color: #9B5DE5; 
+}
+.headline{
+    color:var(--primary-color);
+}
+.main-btn{
+    background-color: var(--primary-color);
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+@media (max-width:767px){
+    .main-btn{
+        margin-top:20px;
+    }
+}
+
+  

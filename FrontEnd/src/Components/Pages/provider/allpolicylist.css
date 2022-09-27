@@ -1,0 +1,21 @@
+.container p{
+    font-size: 20px;
+}
+.main-container h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container .col {
+    margin-top: 30px;
+    
+}
+.container .btn{
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: large;
+}

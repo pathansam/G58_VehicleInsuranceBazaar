@@ -1,0 +1,143 @@
+/* body{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background:#eee;
+    margin-top:20px;
+    } */
+    .receptcontainer{
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+    .text-danger strong {
+                color: #9f181c;
+            }
+            .receipt-main {
+                
+                background:white none repeat scroll 0 0;
+                border-bottom: 12px solid #333333;
+                border-top: 12px solid #9f181c;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 40px 30px !important;
+                position: relative;
+                box-shadow: 0 1px 21px #acacac;
+                color: #333333;
+                font-family: open sans;
+            }
+            .receipt-main p {
+                color: #333333;
+                font-family: open sans;
+                line-height: 1.42857;
+            }
+            .receipt-footer h1 {
+                font-size: 15px;
+                font-weight: 400 !important;
+                margin: 0 !important;
+            }
+            .receipt-main::after {
+                background: #414143 none repeat scroll 0 0;
+                content: "";
+                height: 5px;
+                left: 0;
+                position: absolute;
+                right: 0;
+                top: -13px;
+            }
+            .receipt-main thead {
+                background: #414143 none repeat scroll 0 0;
+            }
+            .receipt-main thead th {
+                color:#fff;
+            }
+            
+            .receipt-right h5 {
+              
+                align-items: flex-end;
+                font-size: 18px;
+                font-weight: bold;
+                margin: 0px 5px -5px 0px;
+            }
+            .receipt-right p {
+                font-size: 15px;
+                margin-left: 10px;
+            }
+            .receipt-right p i {
+                text-align: center;
+                width: 18px;
+            }
+            .receipt-main td {
+                padding: 9px 20px !important;
+            }
+            .receipt-main th {
+                padding: 13px 20px !important;
+            }
+            .receipt-main td {
+                font-size: 13px;
+                font-weight: initial !important;
+            }
+            .receipt-main td p:last-child {
+                margin: 0;
+                padding: 0;
+            }	
+            .receipt-main td h2 {
+                font-size: 20px;
+                font-weight: 900;
+                margin: 0;
+                text-transform: uppercase;
+            }
+            .receipt-header-mid .receipt-left h1 {
+                font-weight: 100;
+                margin: 34px 0 0;
+                text-align: right;
+                text-transform: uppercase;
+            }
+            .receipt-header-mid {
+                margin: 24px 0;
+                overflow: hidden;
+            }
+            
+            #container {
+                background-color: #dcdcdc;
+            }
+            .img{
+                width: 71px ;
+                border-radius:43px;
+                margin-left: 60px;
+                margin-top: -350px;
+            }
+            .rec{
+                
+                float: right;
+            }
+            .l1{
+                
+                margin-left: 650px;
+                
+            }
+            .rec1{
+                margin-right: -60px;
+                margin-top: -150px;
+            }
+            .invo{
+                margin-left: 350px;
+                margin-bottom: 20px;
+            }
+            .p1{
+                margin-left: 350px;
+            }
+            .logo1{
+                width: null;
+                height: 250px;
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+            .logo3{
+                width: null;
+                height: 250px;
+                display: flex;
+                margin-left: -600px;
+                margin-right: 0px;
+            }
+          
